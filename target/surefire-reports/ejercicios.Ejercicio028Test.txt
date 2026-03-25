@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ejercicios.Ejercicio028Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in ejercicios.Ejercicio028Test
+ejercicios.Ejercicio028Test.testCajeroIngresoRetiro -- Time elapsed: 0.005 s <<< ERROR!
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at ejercicios.Ejercicio028.cajeroAutomatico(Ejercicio028.java:22)
+	at ejercicios.Ejercicio028Test.testCajeroIngresoRetiro(Ejercicio028Test.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
